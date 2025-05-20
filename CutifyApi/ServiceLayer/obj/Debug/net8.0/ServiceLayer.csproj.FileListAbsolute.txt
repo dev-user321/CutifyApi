@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.pdb
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\ServiceLayer\obj\Debug\net8.0\ServiceL.3037F684.Up2Date
