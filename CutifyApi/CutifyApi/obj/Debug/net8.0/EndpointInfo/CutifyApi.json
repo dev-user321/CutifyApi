@@ -107,10 +107,51 @@
         }
       }
     },
-    "/api/Values/GetValues": {
+    "/api/Reservation/AddReservation": {
+      "post": {
+        "tags": [
+          "Reservation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservation/MyReservations": {
       "get": {
         "tags": [
-          "Values"
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "time",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -179,6 +220,39 @@
             "minLength": 8,
             "type": "string",
             "format": "password"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationCreateDto": {
+        "required": [
+          "barberFullName",
+          "barberId",
+          "fullName",
+          "phoneNumber",
+          "reservationTime"
+        ],
+        "type": "object",
+        "properties": {
+          "barberId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "barberFullName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "reservationTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fullName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "phoneNumber": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

@@ -48,13 +48,35 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CutifyApi.Controllers.ValuesController",
-    "Method": "GetValues",
-    "RelativePath": "api/Values/GetValues",
+    "ContainingType": "CutifyApi.Controllers.ReservationController",
+    "Method": "AddReservation",
+    "RelativePath": "api/Reservation/AddReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationCreate",
+        "Type": "ServiceLayer.DTOs.Reservation.ReservationCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CutifyApi.Controllers.ReservationController",
+    "Method": "MyReservations",
+    "RelativePath": "api/Reservation/MyReservations",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "time",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

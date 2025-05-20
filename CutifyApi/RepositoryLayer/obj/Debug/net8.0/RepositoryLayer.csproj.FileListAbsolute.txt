@@ -15,3 +15,4 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\RepositoryLayer\obj\Debu
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.pdb
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\RepositoryLayer\obj\Debug\net8.0\ref\RepositoryLayer.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.sourcelink.json

@@ -46,7 +46,10 @@ namespace CutifyApi
             builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IFileService, FileService>();
+            builder.Services.AddScoped<IReservationService, ReservationService>();
 
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
             // Session üçün cache əlavə edin
             builder.Services.AddDistributedMemoryCache();
 
@@ -70,6 +73,8 @@ namespace CutifyApi
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseRouting();
 
