@@ -6,6 +6,7 @@ using ServiceLayer.DTOs.Reservation;
 using ServiceLayer.Services.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
@@ -16,9 +17,11 @@ namespace ServiceLayer.Services
     public class ReservationService : IReservationService
     {
         private readonly AppDbContext _context;
-        public ReservationService(AppDbContext context)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public ReservationService(AppDbContext context, IHttpContextAccessor httpContextAccessor)
         {
-            _context = context; 
+            _context = context;
+            _httpContextAccessor = httpContextAccessor;
         }
         public async Task<bool> AddReservationAsync(ReservationCreateDto reservationCreate, string fullNameCookie, string phoneCookie, HttpResponse response)
         {
@@ -65,19 +68,24 @@ namespace ServiceLayer.Services
             return result > 0;
         }
 
-        private string GetEmailFromToken(HttpContext httpContext)
+        private string GetEmailFromToken()
         {
-            if (httpContext.User.Identity is ClaimsIdentity identity)
+            var httpContext = _httpContextAccessor.HttpContext;
+            if (httpContext?.User?.Identity is ClaimsIdentity identity)
             {
-                var emailClaim = identity.FindFirst(ClaimTypes.Email);
+                var emailClaim = identity.FindFirst(JwtRegisteredClaimNames.Sub) ??
+                                 identity.FindFirst(ClaimTypes.Email); // Əlavə ehtiyat
                 return emailClaim?.Value;
             }
             return null;
         }
 
-        public async Task<List<Reservation>> MyReservationsAsync(DateTime dayStart, DateTime dayEnd, HttpContext httpContext)
+
+
+
+        public async Task<List<Reservation>> MyReservationsAsync()
         {
-            var email = GetEmailFromToken(httpContext);
+            var email = GetEmailFromToken();
             if (email == null)
                 return null;
 
@@ -88,13 +96,14 @@ namespace ServiceLayer.Services
                 return null;
 
             var reservations = await _context.Reservations
-                .Where(r => r.UserId == user.Id &&
-                            r.ReservationTime >= dayStart &&
-                            r.ReservationTime <= dayEnd)
+                .Where(r => r.UserId == user.Id)
                 .ToListAsync();
 
             return reservations;
         }
+
+
+
 
     }
 }

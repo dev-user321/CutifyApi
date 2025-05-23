@@ -12,6 +12,6 @@ namespace ServiceLayer.Services.Interfaces
     public interface IReservationService
     {
         Task<bool> AddReservationAsync(ReservationCreateDto reservationCreate, string fullNameCookie, string phoneCookie, HttpResponse response);
-        Task<List<Reservation>> MyReservationsAsync(DateTime dayStart, DateTime dayEnd, HttpContext httpContext);
+        Task<List<Reservation>> MyReservationsAsync();
     }
 }

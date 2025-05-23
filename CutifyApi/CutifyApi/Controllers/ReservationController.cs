@@ -26,17 +26,18 @@ namespace CutifyApi.Controllers
         }
         [Authorize]
         [HttpGet]
-        public async Task<IActionResult> MyReservations([FromQuery] DateTime time)
+        public async Task<IActionResult> MyReservations()
         {
-            var dayStart = time.Date; // 2025-05-20 00:00:00
-            var dayEnd = time.Date.AddDays(1).AddTicks(-1); // 2025-05-20 23:59:59.9999999
 
-            var reservations = await _reservationService.MyReservationsAsync(dayStart, dayEnd, HttpContext);
+            var reservations = await _reservationService.MyReservationsAsync();
             if (reservations == null || reservations.Count == 0)
                 return NotFound("Rezervasiya tapılmadı");
 
             return Ok(reservations);
+
         }
+
+
 
 
     }

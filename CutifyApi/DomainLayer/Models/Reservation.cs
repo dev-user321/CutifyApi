@@ -14,7 +14,6 @@ namespace DomainLayer.Models
         public DateTime ReservationTime { get; set; }
         public string FullName { get; set; }
         public string PhoneNumber { get; set; }
-        public AppUser User { get; set; }
 
     }
 }

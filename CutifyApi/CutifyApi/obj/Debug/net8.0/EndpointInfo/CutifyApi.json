@@ -143,16 +143,6 @@
         "tags": [
           "Reservation"
         ],
-        "parameters": [
-          {
-            "name": "time",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"

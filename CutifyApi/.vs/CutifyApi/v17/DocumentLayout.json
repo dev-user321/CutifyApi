@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250520085242_UpdateReservationTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Migrations\\20250520085242_UpdateReservationTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73615799-C6D8-496E-AE61-C7B1F7696F30}|DomainLayer\\DomainLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\domainlayer\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73615799-C6D8-496E-AE61-C7B1F7696F30}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250523171856_UpdateSomeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Migrations\\20250523171856_UpdateSomeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73615799-C6D8-496E-AE61-C7B1F7696F30}|DomainLayer\\DomainLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\domainlayer\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73615799-C6D8-496E-AE61-C7B1F7696F30}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250520085107_CreateReservationTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Migrations\\20250520085107_CreateReservationTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73615799-C6D8-496E-AE61-C7B1F7696F30}|DomainLayer\\DomainLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\domainlayer\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73615799-C6D8-496E-AE61-C7B1F7696F30}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\dtos\\reservation\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\repositorylayer\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\cutifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1CB7A69B-C695-4A43-B685-9C7E7F2CCF97}|CutifyApi\\CutifyApi.csproj|solutionrelative:cutifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8A344A-098F-4982-AF13-90831B8BA88E}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\servicelayer\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,6 +109,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\repositorylayer\\migrations\\20250519051507_createusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\migrations\\20250519051507_createusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\repositorylayer\\migrations\\20250520085242_updatereservationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\migrations\\20250520085242_updatereservationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\cutifyapi\\cutifyapi\\repositorylayer\\migrations\\20250520085107_createreservationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0708C46-5613-4AE9-B8CA-07402571FB00}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\migrations\\20250520085107_createreservationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -143,6 +147,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "20250523171856_UpdateSomeTable.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250523171856_UpdateSomeTable.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20250523171856_UpdateSomeTable.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250523171856_UpdateSomeTable.cs",
+              "RelativeToolTip": "RepositoryLayer\\Migrations\\20250523171856_UpdateSomeTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:18:56.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "20250520085242_UpdateReservationTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250520085242_UpdateReservationTable.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20250520085242_UpdateReservationTable.cs",
@@ -150,12 +167,11 @@
               "RelativeToolTip": "RepositoryLayer\\Migrations\\20250520085242_UpdateReservationTable.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:52:42.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T08:52:42.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 28,
               "Title": "20250520085107_CreateReservationTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250520085107_CreateReservationTable.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20250520085107_CreateReservationTable.cs",
@@ -163,38 +179,37 @@
               "RelativeToolTip": "RepositoryLayer\\Migrations\\20250520085107_CreateReservationTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:51:07.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T08:51:07.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "CutifyApi\\Controllers\\ReservationController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Controllers\\ReservationController.cs",
               "RelativeToolTip": "CutifyApi\\Controllers\\ReservationController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:48:44.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\ReservationService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\ReservationService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\ReservationService.cs",
               "RelativeToolTip": "ServiceLayer\\Services\\ReservationService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAQwA8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:22:15.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ReservationCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\DTOs\\Reservation\\ReservationCreateDto.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\DTOs\\Reservation\\ReservationCreateDto.cs",
@@ -202,38 +217,37 @@
               "RelativeToolTip": "ServiceLayer\\DTOs\\Reservation\\ReservationCreateDto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAcwBEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:19:30.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T08:19:30.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "IReservationService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\Interfaces\\IReservationService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\Interfaces\\IReservationService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\Interfaces\\IReservationService.cs",
               "RelativeToolTip": "ServiceLayer\\Services\\Interfaces\\IReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:18:19.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\DomainLayer\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Models\\Reservation.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\DomainLayer\\Models\\Reservation.cs",
               "RelativeToolTip": "DomainLayer\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:15:19.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CutifyApi.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\CutifyApi.csproj",
               "RelativeDocumentMoniker": "CutifyApi\\CutifyApi.csproj",
@@ -245,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\DTOs\\Account\\LoginDto.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\DTOs\\Account\\LoginDto.cs",
@@ -257,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\FileService.cs",
@@ -269,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\Interfaces\\IFileService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\Interfaces\\IFileService.cs",
@@ -281,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\EmailService.cs",
@@ -293,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\Interfaces\\IEmailService.cs",
@@ -305,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "20250519053815_UpdateUserTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250519053815_UpdateUserTable.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20250519053815_UpdateUserTable.cs",
@@ -317,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "PasswordHash.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Helper\\PasswordHash.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Helper\\PasswordHash.cs",
@@ -329,20 +343,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\AccountService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\AccountService.cs",
               "RelativeToolTip": "ServiceLayer\\Services\\AccountService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T05:21:46.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\DTOs\\Account\\RegisterDto.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\DTOs\\Account\\RegisterDto.cs",
@@ -354,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\ServiceLayer\\Services\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\Interfaces\\IAccountService.cs",
@@ -366,19 +380,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "CutifyApi\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Controllers\\AccountController.cs",
               "RelativeToolTip": "CutifyApi\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T05:18:48.144Z"
+              "WhenOpened": "2025-05-19T05:18:48.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "AppController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Controllers\\AppController.cs",
               "RelativeDocumentMoniker": "CutifyApi\\Controllers\\AppController.cs",
@@ -390,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "20250519051507_CreateUserTable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250519051507_CreateUserTable.Designer.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20250519051507_CreateUserTable.Designer.cs",
@@ -402,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -414,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "20250519051507_CreateUserTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Migrations\\20250519051507_CreateUserTable.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20250519051507_CreateUserTable.cs",
@@ -426,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\RepositoryLayer\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Data\\AppDbContext.cs",
@@ -434,12 +449,11 @@
               "RelativeToolTip": "RepositoryLayer\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T05:07:16.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T05:07:16.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\DomainLayer\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Models\\AppUser.cs",
@@ -452,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\DomainLayer\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Common\\BaseEntity.cs",
@@ -464,28 +478,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Program.cs",
               "RelativeDocumentMoniker": "CutifyApi\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\Program.cs",
               "RelativeToolTip": "CutifyApi\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwEwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T04:50:25.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\appsettings.json",
               "RelativeDocumentMoniker": "CutifyApi\\appsettings.json",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CutifyApi\\CutifyApi\\CutifyApi\\appsettings.json",
               "RelativeToolTip": "CutifyApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-19T04:50:21.804Z"
+              "WhenOpened": "2025-05-19T04:50:21.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

@@ -23,22 +23,24 @@ namespace CutifyApi
 
             // SQL Server konfiqurasiyası
             builder.Services.AddSqlServer<AppDbContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+            builder.Services.AddHttpContextAccessor();
 
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidIssuer = "https://localhost:7003/",
-                    ValidAudience = "https://localhost:7003/",
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("I_dont_know_what_happen_in_here777"))
-                };
-            });
+     .AddJwtBearer(options =>
+     {
+         options.TokenValidationParameters = new TokenValidationParameters
+         {
+             ValidateIssuer = true,
+             ValidateAudience = true,
+             ValidateLifetime = true,
+             ValidateIssuerSigningKey = true,
+             ValidIssuer = "https://localhost:7003/",
+             ValidAudience = "https://localhost:7003/",
+             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("I_dont_know_what_happen_in_here777"))
+         };
+     });
+
 
             builder.Services.AddAuthorization();
 

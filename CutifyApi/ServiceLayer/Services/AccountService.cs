@@ -30,16 +30,20 @@ namespace ServiceLayer.Services
 
         public async Task<bool> Login(LoginDto login)
         {
-            var user = await _context.Users.Where(m=>!m.SoftDelete && m.EmailConfirmed == true).FirstOrDefaultAsync(m=>m.Email ==  login.Email);
-            bool checkPassword = PasswordHash.VerifyHashedPassword(user.Password,login.Password);
-            if(checkPassword)
-            {
-                var token = GenerateJwtToken(login.Email);
-                Console.WriteLine("Token: " + token); 
-                return true;
-            }
-           
-            return false;
+            var user = await _context.Users
+                .Where(u => !u.SoftDelete && u.EmailConfirmed == true && u.Email == login.Email)
+                .FirstOrDefaultAsync();
+
+            if (user == null)
+                return false;
+
+            bool checkPassword = PasswordHash.VerifyHashedPassword(user.Password, login.Password);
+            if (!checkPassword)
+                return false;
+
+            var token = GenerateJwtToken(login.Email);
+            Console.WriteLine("Token: " + token); // Swagger üçün token burada çıxır
+            return true;
         }
         public async Task<AppUser> GetUserByEmailAsync(string email)
         {
@@ -52,9 +56,11 @@ namespace ServiceLayer.Services
         {
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, email),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        };
+                new Claim(JwtRegisteredClaimNames.Sub, email),
+                new Claim(ClaimTypes.Email, email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("I_dont_know_what_happen_in_here777"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
