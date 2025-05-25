@@ -1,5 +1,6 @@
 ﻿using DomainLayer.Models;
 using ServiceLayer.DTOs.Account;
+using ServiceLayer.DTOs.Token;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,10 @@ namespace ServiceLayer.Services.Interfaces
     {
         Task<bool> Register(RegisterDto register);
         Task<bool> VerifyEmailAsync(string[] codes);
-        Task<bool> Login(LoginDto login);
+        Task<TokenResponseDto?> Login(LoginDto login);
         Task<AppUser> GetUserByEmailAsync(string email);
         string GenerateJwtToken(string email);
+        TokenResponseDto GenerateTokens(string email);
 
     }
 }

@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "CutifyApi.Controllers.AccountController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Account/RefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CutifyApi.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/Register",
     "HttpMethod": "POST",

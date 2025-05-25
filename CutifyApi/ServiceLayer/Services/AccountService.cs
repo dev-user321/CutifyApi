@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using RepositoryLayer.Data;
 using ServiceLayer.DTOs.Account;
+using ServiceLayer.DTOs.Token;
 using ServiceLayer.Helper;
 using ServiceLayer.Services.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
@@ -28,23 +29,18 @@ namespace ServiceLayer.Services
             _httpContextAccessor = httpContextAccessor;
         }
 
-        public async Task<bool> Login(LoginDto login)
+        public async Task<TokenResponseDto?> Login(LoginDto login)
         {
             var user = await _context.Users
                 .Where(u => !u.SoftDelete && u.EmailConfirmed == true && u.Email == login.Email)
                 .FirstOrDefaultAsync();
 
-            if (user == null)
-                return false;
+            if (user == null || !PasswordHash.VerifyHashedPassword(user.Password, login.Password))
+                return null;
 
-            bool checkPassword = PasswordHash.VerifyHashedPassword(user.Password, login.Password);
-            if (!checkPassword)
-                return false;
-
-            var token = GenerateJwtToken(login.Email);
-            Console.WriteLine("Token: " + token); // Swagger üçün token burada çıxır
-            return true;
+            return GenerateTokens(login.Email);
         }
+
         public async Task<AppUser> GetUserByEmailAsync(string email)
         {
             return await _context.Users
@@ -69,10 +65,31 @@ namespace ServiceLayer.Services
                 issuer: "https://localhost:7003/",
                 audience: "https://localhost:7003/",
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30),
+                expires: DateTime.Now.AddSeconds(30),
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+        public TokenResponseDto GenerateTokens(string email)
+        {
+            var accessToken = GenerateJwtToken(email);
+
+            var refreshToken = Guid.NewGuid().ToString();
+            var refreshEntity = new RefreshToken
+            {
+                Token = refreshToken,
+                UserEmail = email,
+                ExpiryDate = DateTime.UtcNow.AddDays(1) 
+            };
+
+            _context.RefreshTokens.Add(refreshEntity);
+            _context.SaveChanges();
+
+            return new TokenResponseDto
+            {
+                AccessToken = accessToken,
+                RefreshToken = refreshToken
+            };
         }
 
         public async Task<bool> Register(RegisterDto register)

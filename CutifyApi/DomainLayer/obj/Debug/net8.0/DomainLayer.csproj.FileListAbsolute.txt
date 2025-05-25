@@ -5,8 +5,8 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\ne
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfoInputs.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfo.cs
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.sourcelink.json
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.dll
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll
-C:\Users\Lenovo\Desktop\AspNet-Quiz\CutifyApi\CutifyApi\DomainLayer\obj\Debug\net8.0\DomainLayer.sourcelink.json

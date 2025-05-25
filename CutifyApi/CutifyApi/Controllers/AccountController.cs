@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Data;
 using ServiceLayer.DTOs.Account;
 using ServiceLayer.Services.Interfaces;
 
@@ -7,9 +9,11 @@ namespace CutifyApi.Controllers
     public class AccountController : AppController
     {
         private readonly IAccountService _accountService;
-        public AccountController(IAccountService accountService)
+        private readonly AppDbContext _context;
+        public AccountController(IAccountService accountService,AppDbContext context)
         {
             _accountService = accountService;
+            _context = context;
         }
         [HttpPost]
         public async Task<IActionResult> Register(RegisterDto register)
@@ -34,22 +38,35 @@ namespace CutifyApi.Controllers
             return Ok("Email təsdiqləndi.");
         }
         [HttpPost]
+        public async Task<IActionResult> RefreshToken([FromBody] string refreshToken)
+        {
+            var tokenEntity = await _context.RefreshTokens
+                .FirstOrDefaultAsync(t => t.Token == refreshToken && t.ExpiryDate > DateTime.UtcNow);
+
+            if (tokenEntity == null)
+                return Unauthorized("Invalid or expired refresh token");
+
+            // Köhnə token sil
+            _context.RefreshTokens.Remove(tokenEntity);
+            await _context.SaveChangesAsync();
+
+            // Yeni tokenlər yarat
+            var tokens = _accountService.GenerateTokens(tokenEntity.UserEmail);
+            return Ok(tokens);
+        }
+
+        [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginDto login)
         {
-            var user = await _accountService.GetUserByEmailAsync(login.Email);
-            if (user == null || !user.EmailConfirmed == true || user.SoftDelete)
-            {
-                return Unauthorized("İstifadəçi mövcud deyil və ya təsdiqlənməyib.");
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            bool loginSuccess = await _accountService.Login(login);
-            if (loginSuccess)
-            {
-                var token = _accountService.GenerateJwtToken(login.Email);
-                return Ok(new { token });
-            }
+            var tokenResponse = await _accountService.Login(login);
 
-            return Unauthorized("Email və ya şifrə yanlışdır.");
+            if (tokenResponse == null)
+                return Unauthorized("Email və ya şifrə yanlışdır.");
+
+            return Ok(tokenResponse);
         }
 
     }

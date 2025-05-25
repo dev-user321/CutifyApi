@@ -327,6 +327,10 @@
               "target": "Package",
               "version": "[2.3.0, )"
             },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "MimeKit": {
               "target": "Package",
               "version": "[4.12.0, )"

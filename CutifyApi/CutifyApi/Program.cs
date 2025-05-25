@@ -37,7 +37,9 @@ namespace CutifyApi
              ValidateIssuerSigningKey = true,
              ValidIssuer = "https://localhost:7003/",
              ValidAudience = "https://localhost:7003/",
-             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("I_dont_know_what_happen_in_here777"))
+             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("I_dont_know_what_happen_in_here777")),
+             ClockSkew = TimeSpan.Zero
+
          };
      });
 
@@ -49,6 +51,7 @@ namespace CutifyApi
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IFileService, FileService>();
             builder.Services.AddScoped<IReservationService, ReservationService>();
+            builder.Services.AddHostedService<TokenCleanupService>();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -58,7 +61,7 @@ namespace CutifyApi
             // Session konfiqurasiyası
             builder.Services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.IdleTimeout = TimeSpan.FromMinutes(15);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
