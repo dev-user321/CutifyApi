@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CutifyApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b27d40e396bf40963679e82d6ccc92b68a04c52d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ace3af8496d223b6ba0e956ead3e9d75ed3d3eb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CutifyApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CutifyApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
